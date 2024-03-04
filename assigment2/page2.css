@@ -1,0 +1,362 @@
+.image-5-icon {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin: 0 !important;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+    mix-blend-mode: multiply;
+  }
+  .image-4-icon1 {
+    height: 160px;
+    width: 168px;
+    position: relative;
+    object-fit: cover;
+    mix-blend-mode: normal;
+    z-index: 1;
+  }
+  .enter-your-account {
+    position: relative;
+    font-weight: 500;
+    display: inline-block;
+    max-width: 100%;
+    z-index: 1;
+  }
+  .parent-form {
+    width: 1067px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100%;
+    gap: var(--gap-xl);
+  }
+  .log-into-your {
+    margin: 0;
+    height: 109px;
+    font-size: inherit;
+    font-weight: 500;
+    font-family: inherit;
+    display: inline-block;
+  }
+  .email,
+  .frame-child,
+  .log-into-your {
+    position: relative;
+    z-index: 1;
+  }
+  .email {
+    margin: 0;
+    font-size: inherit;
+    font-weight: 500;
+    font-family: inherit;
+  }
+  .frame-child {
+    align-self: stretch;
+    height: 1px;
+    border-top: 1px solid var(--color-black);
+    box-sizing: border-box;
+  }
+  .email-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 13px 0;
+  }
+  .frame-item,
+  .password {
+    position: relative;
+    z-index: 1;
+  }
+  .password {
+    margin: 0;
+    font-size: inherit;
+    font-weight: 500;
+    font-family: inherit;
+  }
+  .frame-item {
+    height: 6px;
+    flex: 1;
+    max-width: 100%;
+    overflow: hidden;
+    object-fit: contain;
+    margin-left: -300px;
+  }
+  .frame-container,
+  .password-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .frame-container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 29px 0;
+  }
+  .image-6-icon {
+    height: 58px;
+    width: 51px;
+    position: relative;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .stay-logged-in {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 500;
+    font-family: inherit;
+    display: inline-block;
+    max-width: 100%;
+    z-index: 1;
+  }
+  .frame-loginagain,
+  .image-6-parent {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .image-6-parent {
+    align-items: flex-end;
+    gap: 0 27px;
+  }
+  .frame-loginagain {
+    align-items: flex-start;
+    padding: 0 var(--padding-xs);
+    box-sizing: border-box;
+  }
+  .create-account,
+  .log-in-box {
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+  }
+  .log-in-box {
+    height: 96px;
+    border-radius: var(--br-17xl);
+    background-color: var(--color-gainsboro);
+    z-index: 1;
+  }
+  .create-account {
+    font-weight: 500;
+    display: inline-block;
+    z-index: 2;
+    margin-left: -308px;
+  }
+  .email-frame {
+    width: 375px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .email-frame-child {
+    height: 96px;
+    width: 344px;
+    position: relative;
+    border-radius: var(--br-17xl);
+    background-color: var(--color-mediumblue-100);
+    display: none;
+    max-width: 100%;
+  }
+  .log-into-account {
+    position: relative;
+    font-size: var(--font-size-11xl);
+    font-weight: 500;
+    font-family: var(--font-inter);
+    color: var(--color-black);
+    text-align: left;
+    z-index: 2;
+  }
+  .email-frame1,
+  .sign-in-frame {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+  }
+  .email-frame1 {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-12xl) var(--padding-3xl) 29px 21px;
+    background-color: var(--color-mediumblue-100);
+    border-radius: var(--br-17xl);
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    white-space: nowrap;
+    z-index: 1;
+  }
+  .email-frame1:hover {
+    background-color: #3d54ff;
+  }
+  .sign-in-frame {
+    align-self: stretch;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+    font-size: var(--font-size-11xl);
+  }
+  .frame-create-account,
+  .frame-create-account-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .frame-create-account {
+    flex: 1;
+    flex-direction: column;
+    gap: 54px 0;
+  }
+  .frame-create-account-wrapper {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 var(--padding-8xs) 0 0;
+    box-sizing: border-box;
+    font-size: var(--font-size-31xl);
+  }
+  .frame-group {
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 51px 0;
+  }
+  .frame-group,
+  .frame-wrapper,
+  .log-into-your-fitvr-account-parent {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .frame-wrapper {
+    width: 821px;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0 var(--padding-8xs) 0 0;
+    box-sizing: border-box;
+    font-size: var(--font-size-46xl);
+  }
+  .log-into-your-fitvr-account-parent {
+    flex-direction: column;
+    align-items: center;
+    gap: 151px 0;
+    text-align: left;
+    font-size: var(--font-size-71xl);
+    color: var(--color-black);
+    font-family: var(--font-inter);
+  }
+  .desktop-2-inner {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 var(--padding-xl);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .image-7-icon {
+    width: 96px;
+    height: 96px;
+    position: absolute;
+    margin: 0 !important;
+    right: 315px;
+    bottom: 395px;
+    object-fit: cover;
+    z-index: 2;
+  }
+  .desktop-2 {
+    width: 100%;
+    position: relative;
+    background-color: var(--color-white);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 1px 141px 0;
+    box-sizing: border-box;
+    letter-spacing: normal;
+    text-align: left;
+    font-size: var(--font-size-18xl);
+    color: var(--color-white);
+    font-family: var(--font-inter);
+  }
+  @media screen and (max-width: 1200px) {
+    .log-into-your-fitvr-account-parent {
+      gap: 151px 0;
+    }
+  }
+  @media screen and (max-width: 1050px) {
+    .enter-your-account {
+      font-size: var(--font-size-11xl);
+    }
+    .parent-form {
+      flex-wrap: wrap;
+    }
+    .log-into-your {
+      font-size: var(--font-size-26xl);
+    }
+    .email,
+    .password {
+      font-size: var(--font-size-33xl);
+    }
+    .stay-logged-in {
+      font-size: var(--font-size-21xl);
+    }
+    .create-account {
+      font-size: var(--font-size-5xl);
+    }
+    .sign-in-frame {
+      flex-wrap: wrap;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .image-6-parent {
+      flex-wrap: wrap;
+    }
+    .log-into-your-fitvr-account-parent {
+      gap: 151px 0;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .enter-your-account {
+      font-size: var(--font-size-3xl);
+    }
+    .log-into-your {
+      font-size: var(--font-size-8xl);
+    }
+    .email,
+    .password {
+      font-size: var(--font-size-20xl);
+    }
+    .stay-logged-in {
+      font-size: var(--font-size-11xl);
+    }
+    .create-account {
+      font-size: var(--font-size-lg);
+    }
+    .frame-create-account {
+      gap: 54px 0;
+    }
+    .frame-group {
+      gap: 51px 0;
+    }
+    .log-into-your-fitvr-account-parent {
+      gap: 151px 0;
+    }
+  }
+  
